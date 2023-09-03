@@ -2,17 +2,27 @@
   "name": "api-gql-of-express",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizanKhanDev/express-js-gql.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/FaizanKhanDev/express-js-gql/issues"
+  },
+  "homepage": "https://github.com/FaizanKhanDev/express-js-gql#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.8.0",
+    "express": "^5.0.0-alpha.8",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.0.1"
   }
 }
